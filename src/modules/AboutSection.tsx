@@ -8,13 +8,13 @@ import React from 'react';
 
 const AboutSection = () => {
     return (
-        <section id='about' className='mt-20'>
+        <section id='about'>
             <div className='bg-[#283845] py-10  md:py-20 flex flex-col md:flex-row items-center 
             md:justify-center'>
-                <div className="w-full bg-[#283845] mx-auto md:w-3/4 lg:w-2/3 xl:w-1/2 
+                <div className="w-full mt-12 bg-[#283845] mx-auto md:w-3/4 lg:w-2/3 xl:w-1/2 
             text-center items-center">
                     <h3 className='text-5xl text-white mb-4 md:mb-6'>About Me</h3>
-                    <p className='text-white leading-loose mt-8 md:text-center md:max-w-2xl mx-auto'>
+                    <p className='text-white w-3/4 md:w-full leading-loose mt-8 md:text-center md:max-w-2xl mx-auto'>
                         I am Venedict Chen, an ambitious student at the University of Indonesia, pursuing a degree in Computer Science.
                         I'm a Front End Developer specializing in NextJS. Willing to learn more into
                         Web Development and become great. I've become Front End Developer for BEM Fasilkom UI and I want

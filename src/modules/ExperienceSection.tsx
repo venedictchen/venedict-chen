@@ -4,13 +4,13 @@ import { experienceData } from '@/constant/Experience';
 const ExperienceSection = () => {
 
   return (
-    <section id='experience' className='mt-32'>
-      <div className='bg-[#283845] py-10 flex flex-col md:flex-row items-center md:justify-between'>
-        <div className="w-full mx-auto  md:w-3/4 lg:w-2/3 xl:w-1/2">
-          <h3 className='text-5xl text-white mb-6'>Experience</h3>
+    <section id='experience'>
+      <div className='bg-[#283845] md:py-10 flex flex-col md:flex-row items-center md:justify-between'>
+        <div className="w-full px-5 md:mx-40 mt-10 md:mt-20 md:w-3/4 lg:w-2/3 xl:w-1/2">
+          <h3 className='text-5xl  text-white mb-6'>Experience</h3>
           <div className="space-y-8">
             {experienceData.map((experience, index) => (
-              <div key={index} className="border-t border-white pt-6">
+              <div key={index} className="border-t ml-2 border-white pt-6">
                 <p className="text-md text-gray-300 mb-1">{experience.period}</p>
                 <p className="text-lg text-white mb-2 font-bold">
                   {experience.position}{" "}
