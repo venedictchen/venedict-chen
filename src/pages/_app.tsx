@@ -1,6 +1,18 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import { type AppType } from "next/dist/shared/lib/utils";
+import Head from "next/head";
+import "../styles/globals.css";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+const MyApp: AppType = ({ Component, pageProps }) => {
+  return (
+    <>
+      <Head>
+        <title>Venedict Chen | Web developer</title>
+        <meta name="description" content="Creating functional, aesthetic, inspiring websites" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
+};
+
+export default MyApp;
