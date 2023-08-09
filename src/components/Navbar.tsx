@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { BsList, BsX } from 'react-icons/Bs';
+import { useState } from 'react';
+import { BsList, BsX } from 'react-icons/bs';
 
 const Navbar = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
