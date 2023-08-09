@@ -8,7 +8,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       <Head>
         <title>Venedict Chen | Web developer</title>
         <meta name="description" content="Creating functional, aesthetic, inspiring websites" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Component {...pageProps} />
     </>

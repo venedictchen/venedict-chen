@@ -6,7 +6,7 @@ const ExperienceSection = () => {
   return (
     <section id='experience'>
       <div className='bg-[#283845] md:py-10 flex flex-col md:flex-row items-center md:justify-between'>
-        <div className="w-full px-5 md:mx-40 mt-10 md:mt-20 md:w-3/4 lg:w-2/3 xl:w-1/2">
+        <div className="w-full px-5 md:mx-40 mt-32 md:mt-28 md:w-3/4 lg:w-2/3 xl:w-1/2">
           <h3 className='text-5xl  text-white mb-6'>Experience</h3>
           <div className="space-y-8">
             {experienceData.map((experience, index) => (

@@ -7,6 +7,9 @@ const Navbar = () => {
     const toggleMobileMenu = () => {
         setShowMobileMenu(!showMobileMenu);
     };
+    const closeMobileMenu = () => {
+        setShowMobileMenu(false);
+    };
 
     return (
         <nav className='bg-[#283845] fixed w-full mb-20 top-0 left-0 right-0 z-10 p-4'>
@@ -53,16 +56,16 @@ const Navbar = () => {
                 <div className="flex flex-col justify-center h-full">
                     <ul className="flex flex-col items-center gap-16">
                         <li>
-                            <a href="#" className="text-[#E6E8E6] text-3xl sm:text-xl">Experience</a>
+                            <a href="#experience" onClick={closeMobileMenu} className="text-[#E6E8E6] text-3xl sm:text-xl">Experience</a>
                         </li>
                         <li>
-                            <a href="#" className="text-[#E6E8E6] text-3xl sm:text-xl">Skills</a>
+                            <a  href="#about"  onClick={closeMobileMenu} className="text-[#E6E8E6] text-3xl sm:text-xl">About</a>
                         </li>
                         <li>
-                            <a href="#" className="text-[#E6E8E6] text-3xl sm:text-xl">Projects</a>
+                            <a href="#project" onClick={closeMobileMenu} className="text-[#E6E8E6] text-3xl sm:text-xl">Projects</a>
                         </li>
                         <li>
-                            <a href="#" className="text-[#E6E8E6] text-3xl sm:text-xl">Contact</a>
+                            <a href="#contact" onClick={closeMobileMenu} className="text-[#E6E8E6] text-3xl sm:text-xl">Contact</a>
                         </li>
                     </ul>
                 </div>
